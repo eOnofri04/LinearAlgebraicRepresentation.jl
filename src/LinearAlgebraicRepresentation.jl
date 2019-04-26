@@ -105,10 +105,11 @@ module LinearAlgebraicRepresentation
    include("./integr.jl")
    include("./refactoring.jl")
    include("./graphalgorithms.jl")
+   include("./fragface.jl")
    
    include("./arrangement/arrangement.jl")
-   planar_arrangement_1 = Arrangement.planar_arrangement_1
-   planar_arrangement_2 = Arrangement.planar_arrangement_2
+   #planar_arrangement_1 = Arrangement.planar_arrangement_1
+   #planar_arrangement_2 = Arrangement.planar_arrangement_2
    planar_arrangement = Arrangement.planar_arrangement
    spatial_arrangement = Arrangement.spatial_arrangement
 end
